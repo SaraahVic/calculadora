@@ -7,7 +7,7 @@ describe('Suite de testes da funcionalidade soma da minha calculadora', function
 	});
 
 	it('Somar um numero inteiro positivo com um negativo', function(){
-		expect(minhaCalc.somar('4', '-10')).toEqual(-6);
+		expect(minhaCalc.somar(4, -10)).toEqual(-6);
 	});
 
 	it('Somar dois numeros positivos de ponto flutuante', function(){
@@ -15,7 +15,7 @@ describe('Suite de testes da funcionalidade soma da minha calculadora', function
 	});
 
 	it('Somar dois numeros negativos de ponto flutuante', function(){
-		expect(minhaCalc.somar(-1.7, -1.4)).toEqual(-2.8);
+		expect(minhaCalc.somar(-1.7, -1.4)).toEqual(-3.1);
 	});
 	
 });
